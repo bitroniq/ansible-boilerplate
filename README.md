@@ -1,6 +1,6 @@
 # Ansible-Boilerplate
 
-[![GitHub Issues](https://img.shields.io/github/issues/acch/ansible-boilerplate.svg)](https://github.com/acch/ansible-boilerplate/issues) [![GitHub Stars](https://img.shields.io/github/stars/acch/ansible-boilerplate.svg?label=github%20%E2%98%85)](https://github.com/acch/ansible-boilerplate/) [![License](https://img.shields.io/github/license/acch/ansible-boilerplate.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/bitroniq/ansible-boilerplate.svg)](https://github.com/bitroniq/ansible-boilerplate/issues) [![GitHub Stars](https://img.shields.io/github/stars/bitroniq/ansible-boilerplate.svg?label=github%20%E2%98%85)](https://github.com/bitroniq/ansible-boilerplate/) [![License](https://img.shields.io/github/license/bitroniq/ansible-boilerplate.svg)](LICENSE)
 
 [Ansible](https://www.ansible.com/) is a configuration management tool, similar to [Chef](https://www.chef.io/) and [Puppet](https://puppet.com/). It allows for performing logical configuration of infrastructure components, such as servers and network switches. The configuration files in this repository can act as a template for your own Ansible projects, in order to get you started quickly. Once you've customized the configuration files then new servers can be configured quickly &mdash; excluding their network configuration. This means that adding new servers is as simple as:
 
@@ -15,7 +15,7 @@ The remaining configuration (installing packages, configuring services, etc.) ca
 Simply download (clone) the repository and start modifying files according to your needs.
 
 ```
-git clone https://github.com/acch/ansible-boilerplate.git myAnsibleProject/
+git clone https://github.com/bitroniq/ansible-boilerplate.git myAnsibleProject/
 ```
 
 Ideally, you'll want to use [Git](https://git-scm.com/) to manage your Ansible configuration files. For that purpose simply [fork](https://help.github.com/articles/fork-a-repo/) this repository into your own Git repository before cloning and customizing it. Alternatively, create your own repository [from the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template). Git will allow you to version and roll-back changes with ease.
@@ -144,4 +144,4 @@ Common | all,check
 
 ## Copyright and license
 
-Copyright 2017 Achim Christ, released under the [MIT license](LICENSE)
+Copyright 2022 Achim Christ, Piotr Kowalski, released under the [MIT license](LICENSE)
